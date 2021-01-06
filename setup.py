@@ -64,11 +64,11 @@ if __name__ == "__main__":
           python_requires=">=3.7"
           )
 
-    custom_exts =  ["custom_extensions/nms", "custom_extensions/roi_align/2D", "custom_extensions/roi_align/3D"]
-    for path in custom_exts:
-        try:
-            install_custom_ext(path)
-        except Exception as e:
-            print("FAILED to install custom extension {} due to Error:\n{}".format(path, e))
-
-    clean()
+    # custom_exts =  ["custom_extensions/nms", "custom_extensions/roi_align/2D", "custom_extensions/roi_align/3D"]
+    # for path in custom_exts:
+    #     try:
+    #         install_custom_ext(path)
+    #     except Exception as e:
+    #         print("FAILED to install custom extension {} due to Error:\n{}".format(path, e))
+    #
+    # clean()
